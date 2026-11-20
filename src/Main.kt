@@ -6,6 +6,7 @@ fun main() {
         println("\n=== AGENDA TUGAS ===")
         println("1. Tambah tugas")
         println("2. Tampilkan tugas")
+        println("3. Tentang aplikasi")
         println("0. Keluar")
         print("Pilihan: ")
         pilihan = readln().toIntOrNull() ?: -1
@@ -35,6 +36,7 @@ fun main() {
                     }
                 }
             }
+            3 -> println("Aplikasi Agenda Tugas - Edward Galys Suganda")
             0 -> println("Program selesai")
             else -> println("Pilihan tidak tersedia")
         }

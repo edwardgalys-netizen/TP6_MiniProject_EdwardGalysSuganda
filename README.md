@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # TP6 Mini Project Kotlin Console
 
@@ -35,3 +36,6 @@ Menerapkan penggunaan Git untuk mencatat perubahan kode, mengelola repository, d
 - Membuat struktur awal mini project.
 - Menambahkan dokumentasi proyek.
 - Membuat program Kotlin sederhana.
+=======
+# TP6_MiniProject_EdwardGalysSuganda
+>>>>>>> a0dc64a0c945aebe675511e24fb869f1a456e531

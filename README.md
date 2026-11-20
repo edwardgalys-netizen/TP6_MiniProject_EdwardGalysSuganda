@@ -5,7 +5,7 @@ Proyek ini dibuat sebagai latihan pengembangan aplikasi Kotlin Console dengan me
 
 ## Identitas Siswa
 Nama: Edward Galys Suganda
-Kelas: XI RPL
+Kelas: XI TIP 1
 
 ## Nama Proyek
 TP6_MiniProject_EdwardGalysSuganda

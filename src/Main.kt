@@ -1,14 +1,19 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+    var pilihan: Int
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+    do {
+        println("\n=== AGENDA TUGAS ===")
+        println("1. Tambah tugas")
+        println("2. Tampilkan tugas")
+        println("0. Keluar")
+        print("Pilihan: ")
+        pilihan = readln().toIntOrNull() ?: -1
+
+        when (pilihan) {
+            1 -> println("Fitur tambah tugas belum tersedia")
+            2 -> println("Fitur tampil tugas belum tersedia")
+            0 -> println("Program selesai")
+            else -> println("Pilihan tidak tersedia")
+        }
+    } while (pilihan != 0)
 }
